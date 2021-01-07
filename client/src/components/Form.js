@@ -30,7 +30,7 @@ export default function Form({ currentPrice }) {
         <h5 className="name">Ethereum</h5>
         <div className="ethereum-flex">
           <img src={ethereumImg} alt="Ethereum" />
-          <div className="price">${currentPrice[0] || "Loading.."}</div>
+          <div className="price">${currentPrice[0] || "Loading..."}</div>
         </div>
         <p className="description">Set alert price here:</p>
         <input
