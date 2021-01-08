@@ -1,6 +1,6 @@
-# READ THIS:
+# READ THIS
 
-## Introduction:
+## Introduction
 
 -This is a project using [CoinCapAPI](https://docs.coincap.io/#37dcec0b-1f7b-4d98-b152-0217a6798058) and [Particle](https://particle.io) along with its [Particle's API](https://docs.particle.io/reference/device-cloud/api/).
 
@@ -10,6 +10,7 @@
 
 ### Instructions
 
-1. `git clone https://github.com/KhoiUna/particle-cryptodisco.git`
-2. `cd client` -> `npm i` -> `npm start` to serve front-end
-3. `cd server` -> `npm i` -> `node app` to serve back-end
+1. Copy the function in `/particle-cloud-function/lightRing.ino` to your [Particle Web Editor](https://build.particle.io)
+2. `git clone https://github.com/KhoiUna/particle-cryptodisco.git`
+3. `cd client` -> `npm i` -> `npm start` to serve front-end
+4. `cd server` -> `npm i` -> `node app` to serve back-end
